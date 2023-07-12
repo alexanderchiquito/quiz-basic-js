@@ -1,7 +1,7 @@
 const data = [
   {
     id: 1,
-    question: "what's the capital of France?",
+    question: "what's the capital of France?  ",
     answers: [
       { answer: "Roma", isCorrect: false },
       { answer: "Paris", isCorrect: true },
@@ -44,9 +44,9 @@ const data = [
     question: "Who wrote the famous novel 'One Hundred Years of Solitude'",
     answers: [
       { answer: "Pablo Neruda", isCorrect: false },
-      { answer: "Cristiano Ronaldo", isCorrect: true },
+      { answer: "Cristiano Ronaldo", isCorrect: false },
       { answer: "Mario Vargas Llosa", isCorrect: false },
-      { answer: " Gabriel García Márquez", isCorrect: false },
+      { answer: " Gabriel García Márquez", isCorrect: true },
     ],
   },
 ];
